@@ -37,8 +37,9 @@ const Board = () => {
   const [desc, setDesc] = useState("");
 
   const options = [
-    { value: "one", label: "1" },
-    { value: "two", label: "2" },
+    { value: "Lakshya", label: "Lakshya" },
+    { value: "Abhijeet", label: "Abhijeet" },
+    { value: "Pranit", label: "Pranit" },
   ];
   const handleSubmit = () => {
     const newTask = {
@@ -303,8 +304,7 @@ const Board = () => {
                 </div>
                 <div className="taskName">
                   <div className="taskNameContent">{task.name}</div>
-                  <div className="taskDescContent">Stage: {task.stage}</div>
-                  <div className="taskDescContent">{task.assignee}</div>
+                  <div className="taskAssigneeContent">{task.assignee}</div>
                   <div className="taskDescContent">
                     <FormatDate date={task.creationDate} />
                   </div>

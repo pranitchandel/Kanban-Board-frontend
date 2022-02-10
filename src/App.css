@@ -59,6 +59,14 @@ body {
   margin: auto;
   /* height: 16vh; */
 }
+.taskAssigneeContent {
+  width: 40%;
+  margin-left: 5px;
+  text-align: center;
+  background-color: rgb(41, 30, 139);
+  border-radius: 4px;
+  color: #ffffff;
+}
 .taskButons {
   width: 100%;
   display: flex;
